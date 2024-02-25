@@ -1,0 +1,86 @@
+body{
+  display: block;
+  padding-top: 200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #074869;
+  font-family: "Inter";
+ 
+}
+
+.container{
+  display: flex;
+  background-color: #181F32;
+  height: 100px;
+  width: 450px;
+  text-align: right;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 10px;
+  font-size: 40px;
+  color: white;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+.inner-container{
+  display: table;
+  background-color: #252D44;
+  margin : 70px;
+  height: 300px;
+  width: 430px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding : 30px 15px 30px 15px;
+}
+
+.btn1{
+  height : 55px;
+  width : 90px;
+  margin : 8px;
+  border-radius: 10px;
+  background-color: #EAE3DB;
+  font-size: 30px;
+  font-weight: bold;
+  color: #252D44;
+}
+
+.del{
+   height : 55px;
+  width : 90px;
+  margin : 8px;
+  border-radius: 10px;
+  background-color: #566796;
+   font-size: 20px;
+  font-weight: bold;
+  color: white;
+  item-align: center;
+  background-color: #566796;
+}
+
+.reset{
+   height : 50px;
+  width : 197px;
+  margin : 8px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #566796;
+}
+
+.equal{
+   height : 50px;
+  width : 197px;
+  margin : 8px;
+  border-radius: 10px;
+   font-size: 18px;
+  font-weight: bold;
+  color: white;
+    background-color: #f20515;
+
+}
+

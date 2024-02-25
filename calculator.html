@@ -1,0 +1,39 @@
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+  <input id="inputfield" class="container" type = text value="0" ></input>
+  <div class="inner-container">
+    <button class="btn1" value="7" onclick= "setInputValue(this.value)">7</button>
+    <button class="btn1" value="8" onclick= "setInputValue(this.value)">8</button>                   <button class="btn1" value="9" onclick= "setInputValue(this.value)">9</button>
+    <button class="del" value="7" onclick= "deleteButton()">DEL</button>
+    <button class="btn1" value="4" onclick= "setInputValue(this.value)">4</button>
+    <button class="btn1" value="5" onclick= "setInputValue(this.value)">5</button>
+    <button class="btn1" value="6" onclick= "setInputValue(this.value)">6</button>                   <button class="btn1" onclick="setInputValue('+')" >+</button> 
+    <button class="btn1" value="1" onclick= "setInputValue(this.value)">1</button>
+    <button class="btn1" value="2" onclick= "setInputValue(this.value)">2</button>
+    <button class="btn1" value="3" onclick= "setInputValue(this.value)">3</button>
+    <button class="btn1" value="-" onclick= "setInputValue(this.value)">-</button>
+    <button class="btn1" value="." onclick= "setInputValue(this.value)">.</button>
+    <button class="btn1" value="0" onclick= "setInputValue(this.value)">0</button>
+    <button class="btn1" value="/" onclick= "setInputValue(this.value)">/</button>
+    <button class="btn1" value="*" onclick= "setInputValue(this.value)">x</button>
+    <button class="reset" onclick = reset()>RESET</button>
+    <button class="equal" onclick = equal()>=</button>
+    
+
+  </div>
+
+  <script src="functions.js"></script>
+
+</body>
+
+</html>
